@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="TODO">
+      <img src="./img/TODO.png" alt="" class="imgTODO" />
+      <button class="btnForAdd">+</button>
+    </div>
+    <dialog class="dialogForAdd">
+        <div class="dialogFlex">
+            <h2>TASK</h2>
+            <button class="btnForX">x</button>
+        </div>
+            <div class="" style="margin: 20px;">
+                <label for="" style="font-weight: 600;">Title</label><br>
+                <input type="text" name="" id="" placeholder="Placeholder text" class="inpForDialogAdd"><br>
+                <label for="" class="" style="font-weight: 600;">Description</label><br>
+                <textarea name="" id="" placeholder="Placeholder text" class="textareaForAdd"></textarea>
+                <div class="" style="margin-top: 20px;">
+                    <button class="btnForSaveAdd">SAVE</button>
+                    <button class="btnForCanelAdd">CANCEL</button>
+                </div>
+            </div>
+    </dialog>
+    <dialog class="dialogForDelete">
+        <h2>Are you to delete this card sure ?</h2>
+        <button class="btnYes">Yes</button>
+        <button class="btnNo">No</button>
+    </dialog>
+    <dialog class="dialogForEdit">
+        <h2>Edit card</h2>
+        <input type="text" name="" id="" class="inpForEdit">
+        <input type="text" name="" id="" class="inpForEdit2">
+        <button class="btnForEdit">Edit</button>
+        <button class="btnForEdit2">Cancel</button>
+    </dialog>
+    <div class="boxForFlex">
+      <div class="boxForFlex2">
+        <div class="">
+          <div class="divForCircle1"></div>
+          <div class="divForCircle2"></div>
+          <div class="divForCircle3"></div>
+          <div class="divForCircle4"></div>
+        </div>
+        <div class="">
+          <h2 class="h2">work</h2>
+          <h2 class="h2">study</h2>
+          <h2 class="h2">entertainment</h2>
+          <h2 class="h2">family</h2>
+        </div>
+      </div>
+      <div class="box"></div>
+    </div>
+    <div class="boxForHide">
+      <input type="checkbox" name="" id="" class="inpForHide" />
+      <p style="color: rgba(128, 128, 128, 1)">Hide done task</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
